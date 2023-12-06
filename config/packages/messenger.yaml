@@ -1,0 +1,9 @@
+framework:
+    messenger:
+        transports:
+            mail_queue:
+                dsn: "%env(MESSENGER_TRANSPORT_DSN)%"
+
+        routing:
+            # async is whatever name you gave your transport above
+            'App\MessageBus\Mail\MailMessage': mail_queue
