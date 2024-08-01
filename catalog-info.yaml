@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: rabbitmq
   annotations:
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: "github:furkanaydin02/rabbitmq@master"
   description: A simple Hello World PHP application using Symfony
 spec:
   type: service
