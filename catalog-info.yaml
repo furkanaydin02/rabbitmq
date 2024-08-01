@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: rabbitmq
+  annotations:
+    backstage.io/techdocs-ref: value
   description: A simple Hello World PHP application using Symfony
 spec:
   type: service
