@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rabbitmq
+  description: A simple Hello World PHP application using Symfony
+spec:
+  type: service
+  owner: nirvana
+  lifecycle: experimental
